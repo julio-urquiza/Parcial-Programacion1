@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1621037768 source:c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juego.h"
+	"categoria.h"
+	"cliente.h"
+	"alquileres.h"
+
+1621031917 c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\juego.h
+
+1621031917 c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\categoria.h
+
+1621038989 c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\cliente.h
+
+1621036043 source:c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1621038364 source:c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juego.h"
+	"cliente.h"
+	"categoria.h"
+
+1621038364 c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\alquileres.h
+	"fecha.h"
+	"cliente.h"
+
+1621036569 c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\fecha.h
+
+1621038864 source:c:\users\julio cesar urquiza\documents\code blocks\urquiza.julio_pp_labo1_1g\juego.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juego.h"
+	"categoria.h"
+
+1621637318 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"datawarehouseClientes.h"
+	"localidad.h"
+
+1621636435 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\cliente.h
+	"localidad.h"
+
+1621641027 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"categoria.h"
+	"cliente.h"
+	"alquileres.h"
+	"localidad.h"
+	"informes.h"
+
+1621456801 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\juego.h
+	"categoria.h"
+
+1621626357 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\categoria.h
+
+1621636925 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\alquileres.h
+	"fecha.h"
+	"cliente.h"
+	"juego.h"
+
+1621036569 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\fecha.h
+
+1621043428 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\categoria.c
+	"categoria.h"
+
+1621456801 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\juego.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juego.h"
+	"categoria.h"
+
+1621637270 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juego.h"
+	"cliente.h"
+	"categoria.h"
+	"datawarehouseAlquileres.h"
+
+1621630109 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\datawarehouse.h
+	"alquileres.h"
+	"cliente.h"
+
+1621630290 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\datawarehousealquileres.h
+	"alquileres.h"
+
+1621637174 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\datawarehouseclientes.h
+	"cliente.h"
+
+1621635299 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\localidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"localidad.h"
+
+1621635344 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\localidad.h
+
+1621640956 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+	"cliente.h"
+	"alquileres.h"
+
+1621640981 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\informes.h
+	"cliente.h"
+	"alquileres.h"
+
