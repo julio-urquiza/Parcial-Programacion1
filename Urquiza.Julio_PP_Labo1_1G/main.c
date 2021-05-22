@@ -19,6 +19,7 @@ int main()
 {
     int idC=200;
     int idA=300;
+    int opcion;
 
     eCategoria categorias[TAMCAT]={
         {70,"mesa"},
@@ -103,9 +104,31 @@ int main()
         case 8:
             system("cls");
             printf("Informes\n");
-            //mostrarJuegosCategoriaMesa(juegos,TAMJ,categorias,TAMCAT);
-            //mostrarAlquileresDeClientes(alquileres,TAMA,clientes,TAMC,juegos,TAMJ,categorias,TAMCAT,localidades,TAML);
-            mostrarImporteDeCliente(alquileres,TAMA,clientes,TAMC,juegos,TAMJ,localidades,TAML);
+            printf("1.Lista de juegos de mesa: ");
+            printf("2.listar alquileres de un cliente: \n");
+            printf("3.listar importe pagado por un cliente: \n");
+            printf("7.Juegos alquilados por mujeres: \n");
+            printf("11.Mostrar Empleados por localidad elegida\n");
+            printf("ingrese una opcion: ");
+            scanf("%d",&opcion);
+            switch(opcion)
+            {
+                case 1:
+                    mostrarJuegosCategoriaMesa(juegos,TAMJ,categorias,TAMCAT);
+                    break;
+                case 2:
+                    mostrarAlquileresDeClientes(alquileres,TAMA,clientes,TAMC,juegos,TAMJ,categorias,TAMCAT,localidades,TAML);
+                    break;
+                case 3:
+                    mostrarImporteDeCliente(alquileres,TAMA,clientes,TAMC,juegos,TAMJ,localidades,TAML);
+                    break;
+                case 7:
+                    mostrarjuegosAlquiladosPorMujeres(alquileres,TAMA,clientes,TAMC,juegos,TAMJ);
+                    break;
+                case 11:
+                    mostrarClientesDeUnaLocalidad(clientes,TAMC,localidades,TAML);
+                    break;
+            }
             break;
         case 9:
             system("cls");

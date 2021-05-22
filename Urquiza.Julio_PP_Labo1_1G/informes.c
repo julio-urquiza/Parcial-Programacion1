@@ -80,3 +80,61 @@ void mostrarImporteDeCliente(   eAlquiler alquiler[],int tama,
         printf("Deve pagar en total: %.2f\n ",AcumuladorImporte);
     }
 }
+
+void mostrarjuegosAlquiladosPorMujeres( eAlquiler alquiler[],int tama,
+                                        eCliente clientes[],int tamc,
+                                        eJuego juegos[],int tamj)
+{
+    if(clientes!=NULL && tamc>0 && alquiler!=NULL && tama>0 && juegos!=NULL && tamj>0)
+    {
+        //7- Listar los juegos alquilados por mujeres
+        int indiceCliente;
+        int indiceJuego;
+        int flag=0;
+        printf("7.Juegos alquilados por mujeres: \n");
+        for(int i=0;i<tama;i++)
+        {
+            indiceCliente=buscarClientePorId(clientes,tamc,alquiler[i].codigoCliente);
+            if(clientes[indiceCliente].sexo=='f' && alquiler[i].isEmpty)
+            {
+                indiceJuego=buscarJuegoPorCodigo(juegos,tamj,alquiler[i].codigoJuego);
+                printf("%s\n",juegos[indiceJuego].descripcion);
+                flag=1;
+            }
+        }
+        if(!flag)
+        {
+            printf("no hay juegos alquilados por mujeres\n");
+        }
+    }
+}
+
+void mostrarClientesDeUnaLocalidad(eCliente clientes[],int tamc,eLocalidad localidades[],int taml)
+{
+    if(clientes!=NULL && tamc>0 && localidades!=NULL && taml>0)
+    {
+        int flag=0;
+        int idLocalidad;
+        printf("11.Mostrar Empleados por localidad elegida\n");
+        mostrarLocalidades(localidades,taml);
+        printf("ingrese una localidad: ");
+        scanf("%d",&idLocalidad);
+        for(int i=0;i<tamc;i++)
+        {
+            if(clientes[i].idLocalidad==idLocalidad)
+            {
+                printf("%10d %10s %10s %5c %10s\n"
+                       ,clientes[i].codigo
+                       ,clientes[i].apelldio
+                       ,clientes[i].nombre
+                       ,clientes[i].sexo
+                       ,clientes[i].telefono);
+                flag=1;
+            }
+        }
+        if (!flag)
+        {
+            printf("no hay empleado en esa localidad\n");
+        }
+    }
+}

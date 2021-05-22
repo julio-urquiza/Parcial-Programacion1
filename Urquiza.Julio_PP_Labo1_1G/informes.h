@@ -14,3 +14,7 @@ void mostrarImporteDeCliente(   eAlquiler alquiler[],int tama,
                                 eCliente clientes[],int tamc,
                                 eJuego juegos[],int tamj,
                                 eLocalidad localidades[],int taml);
+void mostrarjuegosAlquiladosPorMujeres( eAlquiler alquiler[],int tama,
+                                        eCliente clientes[],int tamc,
+                                        eJuego juegos[],int tamj);
+void mostrarClientesDeUnaLocalidad(eCliente clientes[],int tamc,eLocalidad localidades[],int taml);

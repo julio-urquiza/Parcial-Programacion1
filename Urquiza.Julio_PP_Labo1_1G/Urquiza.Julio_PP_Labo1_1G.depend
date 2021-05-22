@@ -53,7 +53,7 @@
 1621636435 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\cliente.h
 	"localidad.h"
 
-1621641027 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\main.c
+1621644609 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -113,7 +113,7 @@
 
 1621635344 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\localidad.h
 
-1621640956 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\informes.c
+1621644655 source:c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\informes.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -121,7 +121,7 @@
 	"cliente.h"
 	"alquileres.h"
 
-1621640981 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\informes.h
+1621644529 c:\users\julio cesar urquiza\documents\utn\parcial-programacion1\urquiza.julio_pp_labo1_1g\informes.h
 	"cliente.h"
 	"alquileres.h"
 
